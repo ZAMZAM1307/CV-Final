@@ -1,0 +1,72 @@
+section div {
+  background-color: #8c4e4e;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  border: 1px solid black;
+}
+
+section {
+  width: 800px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: repeat(6, 150px);
+  grid-template-rows: repeat(6, 100px);
+  gap: 0px;
+  border-inline-color: black;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.BLOCK-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #782217;
+  grid-column: 1 / span 6;
+  grid-row: 1 / span 2;
+}
+
+.BLOCK-2 {
+  background-color: #2c1d27;
+  grid-column: 1 / span 6;
+  grid-row: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.BLOCK-3 {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / span 2;
+  grid-row: 4 / span 10;
+}
+.BLOCK-4 {
+  color: black;
+  background-color: rgb(231, 213, 213);
+  grid-column: 3 / span 4;
+  grid-row: 4 / span 8;
+  justify-content: stretch;
+}
+.BLOCK-5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  grid-column: 3 / span 4;
+  grid-row: 12 / span 2;
+}
+
+img {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  
+}
+
+h2 {
+  color: black;
+  background-color: #dbc2a4;
+  display: flex;
+}
